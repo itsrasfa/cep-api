@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  padding: 5rem 1rem;
+  padding: 5rem .8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,12 +24,11 @@ body {
 
 h1 {
   color: #181818;
-  text-align: center;
 }
 
 form {
-  padding: 1rem;
-  margin: 1rem .5rem;
+  padding: 1rem 0;
+  margin: 1rem .2rem;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -39,7 +38,7 @@ form {
 
 input {
   padding: .5rem;
-  width: 250px;
+  width: 200px;
   height: 40px;
   outline: none;
   border: 3px solid #49626b;
@@ -48,7 +47,7 @@ input {
 
 #btn {
   border: none;
-  padding: .6rem 1.5rem;
+  padding: .6rem 1rem;
   cursor: pointer;
   color: #fff;
   background-color: #49626b;
@@ -59,5 +58,4 @@ input {
   display: flex;
   flex-direction: column;
   gap: .8rem;
-  padding: 1rem;
 }
