@@ -8,9 +8,11 @@ function handleClick(e) {
   const cep = inputCep.value;
   modal.classList.remove('escondido')
   if (!isValid(cep)) {
-    address.innerHTML = `<p style="color: red;">Por favor, digite um CEP válido.</p> <p>Ex: 12345-678</p>`
+    address.innerHTML = `<p><ion-icon style="font-size: 1.5rem;" name="warning"></ion-icon></p><p>Por favor, digite um CEP válido.</p> <p>Ex: 12345-678</p>`
+    address.style = `background-color: #FFE0DE; border: 3px solid #E0B1AE; color:#6E2723;`
   } else {
     getCep(cep);
+    address.style = `background-color:#49626b;`
   }
 }
 
